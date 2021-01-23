@@ -1,0 +1,81 @@
+h5{
+	color: teal;
+}
+h3{
+	color: crimson;
+}
+
+hr{
+		color:lightgray;
+		opacity: 100%;
+}
+
+#logo{
+	max-width: 8%;
+}
+#adj {
+	justify-items: left;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+.timeDisplay{
+	color: gray;
+	font-weight: 500;
+	
+}
+.adjustment{
+	display: inline-flex;
+	align-items: center;
+	background-color: #F08080;
+	height: 10vh;
+}
+.columnmodific{
+	padding-top:2%;
+	position: fixed;
+	width:20%;
+}
+.columnmodific ol{
+	border-right: 2px solid red;
+	padding-right: 5%;
+	
+}
+.columnmodific ol li{
+	list-style-type: circle;
+}
+.columnmodific ol li a{
+	display: block;
+	font-weight: 495;
+	text-decoration:none;
+	color: black;
+	transition: 0.1s ease;
+}
+.columnmodific ol li a:hover{
+				color:red;
+				background-color: #eee;
+				font-weight: 500;
+}
+
+.section{
+	margin-top:2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top: 2%;
+	padding-bottom:2%;
+	padding-right:4%;
+	padding-left: 4%;
+}
+.add{
+	padding-right: 2%;
+	width:80%;
+	float: right;
+}
+
+.footer{
+	margin-top: 4%;
+	padding-left: 30%;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	display: inline-flex;
+	background-color: #F08080;
+}

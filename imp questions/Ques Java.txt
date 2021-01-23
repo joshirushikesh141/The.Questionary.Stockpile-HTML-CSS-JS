@@ -1,0 +1,108 @@
+CORE JAVA
+=============
+
+1.	What do you know about JVM, JRE and JDK?
+2.	Is JRE platform dependant or independent?
+3.	Which is ultimate base class in java class hierarchy? List the name of methods of it?
+4.	Which are the reference types in java?
+5.	Explain narrowing and widening?
+6.	How will you print "Hello CDAC" statement on screen, without semicolon?
+7.	Can you write java application without main function? If yes, how?
+8.	What will happen, if we call main method in static block?
+9.	In System.out.println, Explain meaning of every word?
+10.	How will you pass object to the function by reference?
+11.	Explain constructor chaining? How can we achieve it in C++?
+12.	Which are the rules to overload method in sub class?
+13.	Explain the difference among finalize and dispose?
+14.	Explain shut down hook?
+15.	Explain the difference among final, finally and finalize?
+16.	Explain the difference among checked and unchecked exception?
+17.	Explain exception chaining?
+18.	Explain the difference among throw and throws?
+19.	In which case, finally block doesn’t execute?
+20.	Explain up casting?
+21.	Explain dynamic method dispatch?
+22.	What do you know about final method?
+23.	Explain fragile base class problem and how can we overcome it?
+24.	Why java does not support multiple implementation inheritance?
+25.	. Explain marker interface? List the name of some marker interfaces?
+26.	Explain the significance of marker interface?
+27.	Explain the difference among Comparable and Comparator?
+28.	Explain the difference among Array and ArrayList?
+29.	Explain the difference among HashSet and Hash Map?
+30.	Explain the difference among Hash Table and Hash Map?
+31.	Which collection classes are synchronized?
+32.	Explain the difference among ArrayList and Vector?
+33.	Explain the difference among Enumeration and Iterator?
+34.	Explain the difference among Iterator and ListIterator?
+35.	Explain the difference among fail-fast and fail-safe iterator?
+36.	How can you copy elements of one collection into another without iterator?
+37.	Explain the difference among String and StringBuffer?
+38.	Explain the difference among StringBuffer and StringBuilder?
+39.	How can you check wheather string is palindrome or not?
+41.	Can we write multiple public classes in single .java file? If no why?
+42.	Explain serialization and deserialization?
+43.	If serializable class do not contain serializable fields, what will happen? If its problematic then how will overcome it?
+44.	Which two techniques allow us to create new instance from existing one?
+45.	Which members do not serialize?
+46.	Explain metadata? Explain advantage of it?
+47.	Explain bytecode?
+48.	Explain reflection?
+49.	Which features of java makes it platform dependant?
+50.	Explain applet?
+51.	Can you write in brief life cycle of applet?
+52.	Why AWT components are heavy weight component?
+53.	Explain thread?
+54.	Which are the types of thread? Explain the difference among them?
+55.	Write in brief life cycle of thread?
+56.	Explain race condition? How can we overcome it?
+57.	Explain synchronization? How can we achieve it?
+58.	How can we share object among the threads?
+59.	Why wait, notify and notify all methods belongs to Object class instead of Thread class?
+60.	What do you know about volatile keyword in java?
+61.	Explain the difference among Thread. Sleep and Thread. Yield?
+62.	Explain deadlock? How can we avoid it?
+63.	Why thread based multitasking is faster than process based multitasking?
+64. When we should use Thread class and Runnable interface to create thread?
+65. Explain wild card? Which are the types of it?
+66. Explain the difference among TCP and UDP protocol?
+67. Explain socket?
+68. When we should use socket and RMI?
+69. How will you write code for linked list in java?
+70. Explain wrapper class? Explain need of it?
+71. Why String class has been made immutable in Java?
+72. Why is a char array i.e char[] preferred over String to store a password?
+73.How will you go about debugging thread-safety issues in Java?
+74. What will be the output of the following code snippet?
+	String s = " Hello ";
+	s += " World ";
+	s.trim( );
+	System.out.println(s);
+75. Explain a static factory method, and when will you use it?
+76. How will you split the following string of text into individual vehicle types?
+77. Define the different ways to concatenate strings? and which approach is most efficient?
+78. How do you stream a string class in Java 8?
+79. Does parallel processing as shown below preserve the order?
+80. Define the JVM or system created threads?
+81. If you have a circular reference of objects, but you no longer reference it from an execution thread, will this object be a potential candidate for garbage collection?
+82. When you have automatic memory management in Java via GC, why do you still get memory leaks in Java?
+83. Why is synchronization important?
+84. Is Java a 100% Object Oriented (OO) language? If yes why? and if no, why not?
+85.  Explain the main difference among the Java platform and the other software platforms?
+86. When would you use a decompile?
+87.  Is it possible to prevent the conversion from byte code into source code?
+88. Explain the difference among ‘final‘ and ‘const‘ modifiers on a variable?
+89. How does  volatile keyword differ from the synchronized keyword?
+90. Explain a “transient” modifier? Can you mark a static variable as transient?
+91. Difference among Default and Protected access specifiers.
+92. Difference among Hash Set and Tree Set.
+93. Define all the Classes and Interfaces that are available in the collections?
+94. Explain meant by Ordered and Sorted in collections?
+95. Write in brief the Priority Queue
+96. Write in brief about Map and their types.
+97.  Define the different ways to handle exceptions?
+98. What does yield method of the Thread class do?
+99. Difference among start() and run() method of thread class.
+100. Why we override equals () method?
+101. Explain hash-collision in Hash table and how it is handled in Java?
+ 

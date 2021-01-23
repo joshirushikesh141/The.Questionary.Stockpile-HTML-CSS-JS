@@ -1,0 +1,53 @@
+.Topnav{
+    background: WhiteSmoke;
+    padding: 0%;
+    top: 0%;
+    margin: 0%;
+    padding: 0%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);    
+}
+
+.Topnav ul{
+    list-style-type: none;
+    top: 0%;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.Topnav ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: WhiteSmoke;
+ 
+    line-height: 40px;
+    text-align: center;
+}
+
+.Topnav ul li a{
+    text-decoration: none;
+    display: block;
+	font-weight: 500;
+    color: black;
+	transition: 0.6s ease;
+}
+.Topnav ul li a:hover{
+    background-color: teal;
+    color: #fff;
+}
+.Topnav ul li.active a{
+    background-color: teal;
+    color: #fff;
+}
+
+
+
+
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
